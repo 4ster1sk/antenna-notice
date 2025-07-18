@@ -1,0 +1,8 @@
+{
+    "discord_webhook": "",
+    "host": "",
+    "token": "",
+    "antenna_id": "",
+    "deny_filter": [],
+    "accept_filter": []
+}

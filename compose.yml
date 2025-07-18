@@ -1,0 +1,11 @@
+services:
+  app:
+    logging:
+      driver: json-file
+      options:
+        max-file: '1'
+        max-size: 3m
+    volumes:
+      - ./app:/app
+    build:
+      context: .
