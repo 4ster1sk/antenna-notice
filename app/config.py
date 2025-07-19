@@ -7,4 +7,10 @@ class Config:
     token: str
     antenna_id: str
     deny_filter: list
-    accept_filter: list
+    allow_filter: list
+    filter_default_mode: str = 'deny'
+    loglevel: str = 'INFO'
+
+    @property
+    def is_filter_allow_mode(self) -> bool:
+        return self.filter_default_mode.lower() == 'allow'

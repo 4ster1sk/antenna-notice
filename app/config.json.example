@@ -4,5 +4,7 @@
     "token": "",
     "antenna_id": "",
     "deny_filter": [],
-    "accept_filter": []
+    "allow_filter": [],
+    "filter_default_mode": "deny",
+    "loglevel": "INFO"
 }

@@ -1,4 +1,4 @@
-requests==2.32.3
-python-dotenv
-websocket-client
-rel
+requests==2.32.4
+python-dotenv==1.1.1
+websocket-client==1.8.0
+rel==0.4.9.20
